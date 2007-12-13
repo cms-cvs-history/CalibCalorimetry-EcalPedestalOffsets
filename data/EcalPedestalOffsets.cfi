@@ -1,0 +1,19 @@
+  module pedTest = EcalPedOffset {
+    string EBdigiCollection = 'ebDigis'
+    string EEdigiCollection = 'eeDigis'
+    string digiProducer = 'ecalEBunpacker'
+    string headerProducer = 'ecalEBunpacker'
+    string xmlFile = 'provaSuperWide.xml'
+    untracked int32 DACmin = 40
+    untracked int32 DACmax = 90
+    untracked double RMSmax = 20
+    untracked int32 bestPed = 200
+    int32 SMnum = 22
+    # DB info
+    untracked string dbHostName = '0'
+    untracked string dbName = '0'
+    untracked string dbUserName = 'foo'
+    untracked string dbPassword = 'foo'
+    int32 run = 100
+    string plotting = 'details.root'
+ }
