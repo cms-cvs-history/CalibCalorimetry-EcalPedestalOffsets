@@ -14,6 +14,9 @@
     untracked string dbName = '0'
     untracked string dbUserName = 'foo'
     untracked string dbPassword = 'foo'
+    untracked int32 dbHostPort = 0
+    untracked bool createMonIOV = false
+    untracked string location = 'foo'
     int32 run = 100
     string plotting = 'details.root'
  }
