@@ -8,7 +8,6 @@
     untracked int32 DACmax = 90
     untracked double RMSmax = 20
     untracked int32 bestPed = 200
-    int32 SMnum = 22
     # DB info
     untracked string dbHostName = '0'
     untracked string dbName = '0'
