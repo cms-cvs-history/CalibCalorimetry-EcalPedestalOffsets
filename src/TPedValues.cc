@@ -1,8 +1,11 @@
 #include "CalibCalorimetry/EcalPedestalOffsets/interface/TPedValues.h"
 #include "FWCore/MessageLogger/interface/MessageLogger.h"
 
+#include <math.h>
 #include <iostream>
+#include <cassert>
 #include "TGraphErrors.h"
+#include "TAxis.h"
 
 void reset (double vett[256]) 
 {
