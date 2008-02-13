@@ -3,7 +3,7 @@
     string EEdigiCollection = 'eeDigis'
     string digiProducer = 'ecalEBunpacker'
     string headerProducer = 'ecalEBunpacker'
-    string xmlFile = 'provaSuperWide.xml'
+    string xmlFile = 'provaSuperWide'
     untracked int32 DACmin = 40
     untracked int32 DACmax = 90
     untracked double RMSmax = 20
