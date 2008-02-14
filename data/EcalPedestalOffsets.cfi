@@ -17,5 +17,5 @@
     untracked bool createMonIOV = false
     untracked string location = 'foo'
     int32 run = 100
-    string plotting = 'details.root'
+    string plotting = 'details'
  }
