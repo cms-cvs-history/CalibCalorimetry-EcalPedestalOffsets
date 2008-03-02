@@ -1,8 +1,7 @@
   module pedTest = EcalPedOffset {
-    string EBdigiCollection = 'ebDigis'
-    string EEdigiCollection = 'eeDigis'
-    string digiProducer = 'ecalEBunpacker'
-    string headerProducer = 'ecalEBunpacker'
+    InputTag EBdigiCollection = ecalEBunpacker:ebDigis
+    InputTag EEdigiCollection = ecalEBunpacker:eeDigis
+    InputTag headerCollection = ecalEBunpacker
     string xmlFile = 'provaSuperWide'
     untracked int32 DACmin = 40
     untracked int32 DACmax = 90
@@ -18,4 +17,7 @@
     untracked string location = 'foo'
     int32 run = 100
     string plotting = 'details'
+    untracked double maxSlopeAllowed = -29
+    untracked double minSlopeAllowed = -18
+    untracked double maxChi2OverNDF = 5.25
  }
